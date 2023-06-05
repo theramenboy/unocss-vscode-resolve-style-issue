@@ -1,0 +1,20 @@
+<script setup lang="ts">
+import ComponentWithPug from './components/ComponentWithPug.vue'
+import ComponentWithoutPug from './components/ComponentWithoutPug.vue'
+</script>
+
+<template>
+  <ComponentWithPug  />
+  <ComponentWithoutPug  />
+</template>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
